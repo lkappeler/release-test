@@ -1,0 +1,30 @@
+{
+  "name": "release-test",
+  "version": "0.0.0-development",
+  "description": "test",
+  "main": "index.js",
+  "dependencies": {
+    "semantic-release-cli": "^3.6.2"
+  },
+  "devDependencies": {
+    "semantic-release": "^12.2.2",
+    "semantic-release-github": "^3.0.6"
+  },
+  "scripts": {
+    "test": "npm test",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lkappeler/release-test.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Lorenzo Kappeler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lkappeler/release-test/issues"
+  },
+  "homepage": "https://github.com/lkappeler/release-test#readme"
+}
