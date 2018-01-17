@@ -2,9 +2,9 @@ version: 2
 general:
   branches:
     only:
-     - master 
+     - master
 jobs:
-   semantic-release-github:
+   build:
      working_directory: ~/release-test
      docker:
        - image: circleci/node:7
