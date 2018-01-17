@@ -1,0 +1,15 @@
+version: 2
+general:
+  branches:
+    only:
+     - master 
+jobs:
+   semantic-release-github:
+     working_directory: ~/release-test
+     docker:
+       - image: circleci/node:7
+       - image: circleci/mongo:3.2.16
+     steps:
+       - checkout
+       - run: npm install
+       - run: ~/release-test/node_modules/.bin/semantic-release-github
